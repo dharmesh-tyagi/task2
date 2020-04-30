@@ -1,0 +1,31 @@
+.add_task_input{
+    width: 50vw;
+    height:5vh;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.add_task_submit{
+    width:18vw;
+    height:5vh;
+    margin:auto;
+    color: brown;
+    background-color: burlywood;
+    
+}
+.add_task_submit:hover{
+    color: brown;
+    background-color: lightgreen;
+}
+@media(max-width:764px){
+    .add_task_input{
+        width:80vw;
+    }
+    .add_task_submit{
+        width:50vw;
+    }
+}

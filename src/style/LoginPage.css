@@ -1,0 +1,69 @@
+
+.rightside,.leftside{
+    height: 100vh;
+    width: 50vw;
+}
+.rightside{
+    background: url("../image-asset/login-side.jpg");
+    background-size: cover;
+}
+.welcome{
+    color: white;
+    font-family: fantasy;
+    font-size: larger;
+}
+.welcome h3{
+    font-size: 30px;
+    position: absolute;
+    top: 25vh;
+    left:10vw
+}
+/*----------LEFT SIDE AVATAR*/
+.login_avatar{
+    height: 50vh;
+    background-color: wheat;
+}
+.login_avatar img{
+    
+    border-radius: 50%;
+    height:80%;
+}
+/*---------END OF AVATAR---------*/
+/* Full-width inputs */
+.login_input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+ .login_input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.login_button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.login_button:hover {
+    opacity: 0.8;
+}
+
+@media(max-width:764px){
+    .rightside,.leftside{
+        height: 100vh;
+        width: 100vw;
+        
+    }
+}

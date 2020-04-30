@@ -1,0 +1,48 @@
+.task_manager{
+    background-color: navajowhite;
+}
+.upper_part{
+    height: 22vh;
+    border: double 2px black;
+    width: 100vw;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    text-align: center;
+    box-sizing: border-box;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: column;
+}
+.logout_button{
+    position:fixed;  
+    top: 2px;
+    right: 2px; 
+}
+.upper_part AddTask{
+    height: 10vh;
+    border: dashed 2px black;
+}
+.display-task{
+    height: 78vh;
+    box-sizing: border-box;
+    width: 100vw;
+    overflow-y:auto;
+    border: double 2px black;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: column;
+}
+@media(max-width:764px){
+    .logout_button{
+        position: fixed;
+        top: 2px;
+        right:2px;
+        width:20vw;
+    }   
+}

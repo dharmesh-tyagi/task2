@@ -1,0 +1,26 @@
+.task{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: column;
+    flex-basis: 25vh;
+    width: 50vw;
+    border: .5vh solid;
+    padding:2vh;
+}
+.show_part h3{
+    
+}
+.task_not_done{
+    text-transform: uppercase;
+}
+.task_done{
+    text-transform: lowercase;
+    text-decoration: line-through;
+}
+@media(max-width:764px){
+    .update_input{
+        width: 100%;
+    }
+}
